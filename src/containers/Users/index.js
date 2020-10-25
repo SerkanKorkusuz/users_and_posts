@@ -117,7 +117,7 @@ const Users = ({ getUsers }) => {
   };
   return (
     <>
-      {loading ? <Loading /> : <DataTable />}
+      {loading && <Loading />}
       <FilterInput onSubmit={_filterByName} onClear={_clearFilters} />
       <DataTable
         columns={columns}
@@ -126,7 +126,6 @@ const Users = ({ getUsers }) => {
         customStyles={customStyles}
         pagination
         paginationPerPage={20}
-        paginationServer
         onChangePage={(page, totalRows) => setPage(page)}
         paginationTotalRows={totalRows}
         paginationDefaultPage={page}
