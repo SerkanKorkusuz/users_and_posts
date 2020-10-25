@@ -125,6 +125,7 @@ const Users = ({ getUsers }) => {
         theme="usersAndPosts"
         customStyles={customStyles}
         pagination
+        paginationServer
         paginationPerPage={20}
         onChangePage={(page, totalRows) => setPage(page)}
         paginationTotalRows={totalRows}
