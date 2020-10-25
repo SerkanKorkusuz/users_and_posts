@@ -1,0 +1,25 @@
+.post-info {
+    background: #ddd;
+    padding: 1rem;
+}
+
+.post-info > header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    order: 1;
+}
+
+.post-info-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.post-info-date {
+    text-align: right;
+}
+
+.post-info-content {
+    text-align: left;
+}

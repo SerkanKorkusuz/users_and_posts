@@ -1,0 +1,11 @@
+.bgColor {
+    color: #dd6655;
+    background: white;
+    border-color: #dd6655;
+}
+
+.bgColor:hover {
+    color: white;
+    background: #dd6655;
+    border: #dd6655;
+}

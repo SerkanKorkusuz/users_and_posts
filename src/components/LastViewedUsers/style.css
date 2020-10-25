@@ -1,0 +1,26 @@
+h4, h6 {
+    text-align: center;
+}
+
+.last-viewed-list {
+    margin-top: 10%;
+    list-style-type: none;
+    text-align: left;
+}
+
+    @media screen and (max-width: 900px) {
+        .last-viewed-list {
+            margin-top: 15%;
+            text-align: center;
+        }
+    }
+
+#btn-viewed-posts {
+    margin-top: 35%;
+}
+
+    @media screen and (max-width: 900px) {
+        #btn-viewed-posts {
+            margin-top: 5%;
+        }
+    }
