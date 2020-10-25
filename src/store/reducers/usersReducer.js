@@ -10,7 +10,7 @@ const usersReducer = (state = initialState, action) => {
 
       return [{ ...user }]
         .concat(...state.filter((u) => u.id !== user.id))
-        .slice(0, 4);
+        .slice(0, 5);
     default:
       return state;
   }
